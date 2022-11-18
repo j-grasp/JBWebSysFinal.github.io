@@ -1,0 +1,161 @@
+html {
+    background: rgb(80,80,80);
+    background: linear-gradient(90deg, rgba(80,80,80,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+main {
+    color: white
+}
+
+.nav {
+    text-align: center;
+    float: left;
+    width: 100%;
+    background-color: white;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+nav a:before {
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+nav a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header {
+
+}
+.heading_container {
+    padding: 10px 10px 10px 0px;
+    height: 250px;
+    width: 100%;
+}
+.heading_title {
+    text-align: center;
+    color: white;
+}
+.heading_button {
+    margin-top: 420px;
+}
+.heading_button button {
+    margin-top: 150px;
+    text-align: left;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.body_container {
+    position: relative;
+    height: 300px;
+}
+
+table {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.reference {
+    margin-top: 225px;
+}
+
+footer {
+    color: white;
+}
+
+button {
+    margin-top: 100px;
+    animation: wiggle 2s linear infinite;
+  }
+  
+  /* Keyframes */
+  @keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  
+  button {
+    float: right;
+    position: relative;
+    
+    height: 4em;
+    width: 7em;
+    
+    background: #444;
+    background: linear-gradient(top, #555, #333);
+    border: none;
+    border-top: 3px solid orange;
+    border-radius: 0 0 0.2em 0.2em;
+    color: #fff;
+    font-family: Helvetica, Arial, Sans-serif;
+    font-size: 1em;
+    transform-origin: 50% 5em;
+  }
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.images {
+    text-align: center;
+}
